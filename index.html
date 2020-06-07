@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Musix </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body onload="pageload()">
+
+<div class="loader" id="loading"></div>
+
+<div class="topnav" id="myTopnav">
+  <div class="logo"> Musix </div>
+  <a id="extra" href="#news">!</a>
+  <a href="#">Contact Us</a>
+  <a href="#">About Us</a>
+  <a href="#">Shuffled</a>
+  <a href="#">Categories</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<br>
+<div class="Row">
+    <div class="box" style="animation: fadeInUpBig 0.8s ease;">
+     Believer - Imagine Dragons
+	<br>
+	<br>
+	<audio controls class="audio">
+  	   <source src="songs/beliver-imagine_dragons.mp3" type="audio/mpeg">
+	</audio>
+
+	<a href="http://dl2.djring.com/hd1.djring.com/320/479661/Believer+-+Imagine+Dragons%20(DJJOhAL.Com).mp3">
+	<img src="images/downloadicon.png" onclick="faded()" class="downlogo" height="60px" width="60px">
+	</a>
+    </div>
+
+
+    <div class="box" style="animation: fadeInUpBig 1.0s ease;">
+      Faded - Alan Walker
+	<br>
+	<br>
+	<audio controls class="audio">
+  	   <source src="songs/faded-alan_walker.mp3" type="audio/mpeg">
+	</audio>
+	
+	<a href="https://dlwk.kizcdn.info/download/dl2/d4df57f9d24b125b9f11353a155a62d1/320/wapmash+wapkiz+com/faded-(wapmash.wapkiz.com).mp3">
+	<img src="images/downloadicon.png" onclick="faded()" class="downlogo" style="cursor: pointer;" height="60px" width="60px">
+	</a>
+    </div>
+   
+ 
+    <div class="box" style="animation: fadeInUpBig 1.2s ease;">
+      Closer - Chainsmokers
+	<br>
+	<br>
+	<audio controls class="audio">
+  	   <source src="songs/closer-chainsmokers.mp3" type="audio/mpeg">
+	</audio>
+
+	<a href="https://jatt.download/dren/music/data/English/201802/Best_of_December_2016/320/Closer_Feat_Halsey_.mp3/Closer%20Feat%20Halsey%20.mp3">
+	<img src="images/downloadicon.png" onclick="closer()" class="downlogo" style="cursor: pointer;" height="60px" width="60px">
+	</a>
+    </div>
+
+
+    <div class="box" style="animation: fadeInUpBig 1.4s ease;">
+      Shape of You - Ed Sheeran
+	<br>
+	<br>
+	<audio controls class="audio">
+  	   <source src="songs/shape-of-you.mp3" type="audio/mpeg">
+	</audio>
+
+	<a href="https://hd.upload.solutions/e8e8d319dd180c888458f475b664122a/swqzv/Shape%20of%20You-(Mr-Jatt.com).mp3">
+	<img src="images/downloadicon.png" onclick="shapeofyou()" class="downlogo" style="cursor: pointer;" height="60px" width="60px">
+	</a>
+    </div>
+
+
+    <div class="box" style="animation: fadeInUpBig 1.6s ease;">
+      Lean On - DJ Snake
+	<br>
+	<br>
+	<audio controls class="audio">
+  	   <source src="songs/lean_on-djsnake.mp3" type="audio/mpeg">
+	</audio>
+
+	<a href="https://hd.upload.solutions/afd29c2f81fb508bab015a68318bb654/miuuv/Lean%20On-(Mr-Jatt.com).mp3">
+	<img src="images/downloadicon.png" onclick="leanon()" class="downlogo" style="cursor: pointer;" height="60px" width="60px">
+	</a>
+    </div>
+
+
+    <div class="box" style="animation: fadeInUpBig 1.8s ease;">
+      Trampoline - SHAED
+	<br>
+	<br>
+	<audio controls class="audio">
+  	   <source src="songs/trampoline-shaed.mp3" type="audio/mpeg">
+	</audio>
+
+	<a href="http://media.mtvpersian.net/2019/Oct/10/SHAED%20-%20Trampoline%20-%20ft%20ZAYN%20.mp3">
+	<img src="images/downloadicon.png" onclick="shaed()" class="downlogo" style="cursor: pointer;" height="60px" width="60px">
+	</a>
+    </div>
+
+    <div class="box" style="animation: fadeInUpBig 2.0s ease;">
+      Lonely Together - Avicii
+	<br>
+	<br>
+	<audio controls class="audio">
+  	   <source src="songs/lonely_together-avicii.mp3" type="audio/mpeg">
+	</audio>
+
+	<a href="http://media.mtvpersian.net/2019/Oct/10/SHAED%20-%20Trampoline%20-%20ft%20ZAYN%20.mp3">
+	<img src="images/downloadicon.png" onclick="shaed()" class="downlogo" style="cursor: pointer;" height="60px" width="60px">
+	</a>
+    </div>
+
+    <div class="box" style="animation: fadeInUpBig 2.2s ease;">
+      Alone - Alan Walker
+	<br>
+	<br>
+	<audio controls class="audio">
+  	   <source src="songs/alone-alan_walker.mp3" type="audio/mpeg">
+	</audio>
+
+	<a href="http://media.mtvpersian.net/2019/Oct/10/SHAED%20-%20Trampoline%20-%20ft%20ZAYN%20.mp3">
+	<img src="images/downloadicon.png" onclick="shaed()" class="downlogo" style="cursor: pointer;" height="60px" width="60px">
+	</a>
+    </div>
+
+    <div class="box" style="animation: fadeInUpBig 2.4s ease;">
+      Magenta Riddim
+	<br>
+	<br>
+	<audio controls class="audio">
+  	   <source src="songs/Magenta-Riddim.mp3" type="audio/mpeg">
+	</audio>
+
+	<a href="http://media.mtvpersian.net/2019/Oct/10/SHAED%20-%20Trampoline%20-%20ft%20ZAYN%20.mp3">
+	<img src="images/downloadicon.png" onclick="shaed()" class="downlogo" style="cursor: pointer;" height="60px" width="60px">
+	</a>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
