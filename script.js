@@ -1,5 +1,5 @@
-var preloader = document.getElementBYID('loading');
-  function pageload() {
+ var preloader = document.getElementById('loadpg');
+ function myfunc(){
 	preloader.style.display = 'none';
 }
 
